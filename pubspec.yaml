@@ -40,7 +40,10 @@ dependencies:
   equatable: ^2.0.5
 
   #util
-  velocity_x: ^4.1.2
+  velocity_x:
+    git:
+      url: git@github.com:Shreemanarjun/VelocityX.git
+      ref: 3.27_fix
 
   #data
   shared_preferences: ^2.0.15
@@ -65,7 +68,7 @@ dependencies:
   cached_network_image: ^3.2.3
 
   #ui - util
-  keyboard_utils_fork: ^0.0.4
+  keyboard_utils_fork: ^1.0.1
 
   #network
   dio: ^5.0.0
