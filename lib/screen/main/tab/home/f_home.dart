@@ -64,7 +64,7 @@ class HomeFragment extends StatelessWidget {
               ).pSymmetric(h: 20),
             ),
           ),
-          TtossAppbar(),
+          const TtossAppbar(),
         ],
       ),
     );

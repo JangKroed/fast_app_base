@@ -13,7 +13,7 @@ class TtossAppbar extends StatefulWidget {
 }
 
 class _TtossAppbarState extends State<TtossAppbar> {
-  bool _showRedDot = false;
+  final bool _showRedDot = false;
 
   @override
   Widget build(BuildContext context) {

@@ -16,7 +16,8 @@ class _NotificationScreenState extends State<NotificationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(slivers: [
-        SliverAppBar(
+        const SliverAppBar(
+          pinned: true,
           title: Text('알림'),
         ),
         SliverList(
